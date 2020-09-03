@@ -3,16 +3,17 @@
 }
 
 .nav-link, .navbar-brand {
-    background: #f4f4f4;
+    /* background: #f4f4f4; */
     color: #f97300;
 }
 
 .nav-link {
     margin-right: 1em !important;
+    border-radius: 5px;
 }
 
 .nav-link:hover {
-    background: #f4f4f4;
+    /* background: #f4f4f4; */
     color: #f97300;
 }
 
@@ -39,4 +40,36 @@
     left: 0;
     top: 0;
     background: rgba(224, 224, 224, .79);
+}
+
+.header {
+    background-image: url('../img/code.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: #f97300;
+}
+
+.description p {
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+
+}
+
+.description button {
+    border: 1px solid #f97300;
+    background: #f97300;
+    color: #fff;
 }
